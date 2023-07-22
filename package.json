@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cz": "git cz"
   },
+  "private": true,
+  "workspaces": [
+    "package/*"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
