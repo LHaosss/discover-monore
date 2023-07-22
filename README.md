@@ -9,6 +9,11 @@
 ## feature
 
 - [x] `git commit` with commitizen/cz-cli
+- [x] declare every folder inside `/packages` with a `package.json` file is considered a local package.(by add `"workspaces"` property in `/package.json` )
+- [x] typescript
+- [x] ts-node
+- [x] eslint
+- [x] prettier
 
 ## git commit
 
