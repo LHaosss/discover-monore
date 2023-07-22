@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cz": "git cz"
+    "cz": "git cz",
+    "build": "tsc --build --verbose"
   },
   "private": true,
   "workspaces": [
-    "package/*"
+    "package/*",
+    "packages/utils"
   ],
   "keywords": [],
   "author": "",
